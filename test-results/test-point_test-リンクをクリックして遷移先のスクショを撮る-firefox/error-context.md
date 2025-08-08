@@ -1,0 +1,41 @@
+# Page snapshot
+
+```yaml
+- main:
+  - heading "Sign in to your Rakuten account" [level=1]
+  - text: Username or email (Required)
+  - textbox "Username or email": rinasasaki110612@gmail.com
+  - button "Next"
+  - text: By signing in, you agree to
+  - link "Terms and Conditions (Opens in a new tab)":
+    - /url: https://corp.rakuten.co.jp/terms/en/
+    - text: Terms and Conditions (Opens in a new tab)
+    - img
+  - text: of the Rakuten Membership Program and
+  - link "Privacy Policy (Opens in a new tab)":
+    - /url: https://privacy.rakuten.co.jp/english/
+    - text: Privacy Policy (Opens in a new tab)
+    - img
+  - text: (March 31, 2022). Not your device?
+  - link "Use private mode (Opens in a new tab)":
+    - /url: https://ichiba.faq.rakuten.net/detail/000007260
+    - text: Use private mode (Opens in a new tab)
+    - img
+  - text: to sign in.
+  - button "Forgot your password?":
+    - text: Forgot your password?
+    - img
+  - link "Create a new Rakuten account (free)":
+    - /url: /sso/register?client_id=rakuten_books_b_web&redirect_uri=https://books.rakuten.co.jp/login/auth/&scope=openid&response_type=code&state=aHR0cHM6Ly9ib29rcy5yYWt1dGVuLmNvLmpwLw==
+  - button "Language":
+    - img
+    - text: Language
+    - img
+  - link "Help":
+    - /url: https://ichiba.faq.rakuten.net/detail/000007260
+  - link "Privacy":
+    - /url: https://privacy.rakuten.co.jp/english/
+  - link "Terms":
+    - /url: https://corp.rakuten.co.jp/terms/en/
+  - text: © Rakuten
+```
