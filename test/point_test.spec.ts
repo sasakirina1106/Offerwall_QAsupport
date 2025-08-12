@@ -1,4 +1,4 @@
-import { test　} from '@playwright/test';
+import { test } from '@playwright/test';
 
 test('リンクをクリックして遷移先のスクショを撮る', async ({ page }) => {
   // ① トップページにアクセス
